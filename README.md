@@ -6,7 +6,7 @@ Peter Opiyo
 
 # Description
 
-This project is a web application for Delani studio that shows details about the services it offers, has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios. 
+This is a web application for Delani studio; it gives details about the services offered, you can also find general information about Delani studio from the application, it has a portfolio section and a form that enables users to contact Delani studios via email. 
 
 
 # Live Page 
@@ -14,21 +14,22 @@ This project is a web application for Delani studio that shows details about the
 https://poopiyo.github.io/Delanistudio-wk3/
 
 ## Installation / Setup instruction
-* Open Terminal {Ctrl+Alt+T}
+* Open Terminal 
 
-* git clone
-https://poopiyo.github.io/Delanistudio-wk3/
-* cd Delani-Studio
 
-* code . or atom . depending on the text editor of your choise.
+* code or atom 
 
 ## Technologies Used
 
-* [HTML5](https://github.com/topics/html5)
-* [CSS](https://github.com/topics/css3)
-* [Bootstrap](https://github.com/topics/bootstrap)
-* [jQuery](https://github.com/topics/javascript)
+* HTML5
+* CSS
+* Bootstrap
+* jQuery
 * markdown
+
+## CONTACTS
+* +254719136905
+* peter.opiyo@student.moringaschool.com
 
 ## License
 * *MIT License:*
