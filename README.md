@@ -2,7 +2,7 @@
 
 ## Author
 
-[Owiti-Charles](https://github.com/Owiti-Charles)
+Peter Opiyo
 
 ## Description
 
@@ -31,11 +31,6 @@ https://Owiti-charles.github.io/Delani-Studio
 * [Bootstrap](https://github.com/topics/bootstrap)
 * [jQuery](https://github.com/topics/javascript)
 * markdown
-
-
-
-
-
 
 ## License
 * *MIT License:*
