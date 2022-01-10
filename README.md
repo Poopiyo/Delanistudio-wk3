@@ -1,6 +1,6 @@
 # Delani-Studio
 
-## Author
+ Author
 
 Peter Opiyo
 
