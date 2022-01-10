@@ -14,8 +14,8 @@
             'onMailChimpError': function() {},
             'responseClass': 'mc-response',
 
-            'successMessage': '', // Set a custom success message.
-            'url': actionUrl, // The mailchip list subscription url, to get the JSONP address just change `post` to `post-json` and append `&c=?` at the end.
+            'successMessage': '',
+            'url': actionUrl,
         };
         var originalButtonText = defaults.buttonSelector.text();
         var $responseContainer;

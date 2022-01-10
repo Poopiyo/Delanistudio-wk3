@@ -92,16 +92,7 @@
         if (node) {
             for (i in preservedScriptAttributes) {
 
-                // Support: Firefox 64+, Edge 18+
-                // Some browsers don't support the "nonce" property on scripts.
-                // On the other hand, just using `getAttribute` is not enough as
-                // the `nonce` attribute is reset to an empty string whenever it
-                // becomes browsing-context connected.
-                // See https://github.com/whatwg/html/issues/2369
-                // See https://html.spec.whatwg.org/#nonce-attributes
-                // The `node.getAttribute` check was added for the sake of
-                // `jQuery.globalEval` so that it can fake a nonce-containing node
-                // via an object.
+
                 val = node[i] || node.getAttribute && node.getAttribute(i);
                 if (val) {
                     script.setAttribute(i, val);
@@ -117,30 +108,25 @@
             return obj + "";
         }
 
-        // Support: Android <=2.3 only (functionish RegExp)
+
         return typeof obj === "object" || typeof obj === "function" ?
             class2type[toString.call(obj)] || "object" :
             typeof obj;
     }
-    /* global Symbol */
-    // Defining this global in .eslintrc.json would create a danger of using the global
-    // unguarded in another place, it seems safer to define global only for this module
+
 
 
 
     var
         version = "3.4.1",
 
-        // Define a local copy of jQuery
         jQuery = function(selector, context) {
 
-            // The jQuery object is actually just the init constructor 'enhanced'
-            // Need init if jQuery is called (just allow error to be thrown if not included)
+
             return new jQuery.fn.init(selector, context);
         },
 
-        // Support: Android <=4.0 only
-        // Make sure we trim BOM and NBSP
+
         rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
 
     jQuery.fn = jQuery.prototype = {
