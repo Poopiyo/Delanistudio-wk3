@@ -33,17 +33,13 @@ https://Owiti-charles.github.io/Delani-Studio
 * markdown
 
 
-## Known Bugs
-* The site is not responsive enough for some devices. 
-* mail chimp API does not function properly.
 
-## Contact Information 
 
-If you have any question or contributions, please email me at [mikeycharlesm7@gmail.com]
+
 
 ## License
 * *MIT License:*
-* Copyright (c) 2019 **Owiti Charles**
+* Copyright (c) 2019 **Peter Opiyo**
 
 "# Delanistudio-wk3" 
 "# Delanistudio-wk3" 
