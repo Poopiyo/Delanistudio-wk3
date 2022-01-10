@@ -25,7 +25,7 @@
 
         // On submit
         $($form).on('submit', function(event) {
-            // Disable default action of submit
+
             event.preventDefault();
 
             // Remove status class and add the loading
